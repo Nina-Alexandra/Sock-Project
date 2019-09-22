@@ -1,0 +1,27 @@
+Cuff
+	circEase = circumference - 1;
+	castOn = gaugeSts*circEase //rounded. Also, ensure divisible by 4. If not, add 1 until divisible by 4
+	largerNeedle = //smallerNeedle+1?
+	3dpns = castOn/3 //IF castOn%3 != 0... tell user castOn/3 (int division) per needle and remaining 1 or 2 on the first or first and second needles
+	cuffRows = gaugeRows*1.5
+Leg
+	smallerNeedle //given by user
+	legRows = gaugeRows*3.5
+HeelFlap
+	halfSts = castOn/2
+	quarterSts = castOn/4
+	instepRows = gaugeRows*instep //IF instepRows%2 != 1, instepRows += 1
+	instepRowsPlus1 = instepRows+1
+HeelTurn
+	heelTurnRows = quarterSts-3
+Gusset
+	halfInstepRows = instepRowsPlus1/2
+	stsAfterHeelTurn = quarterSts + 3;
+	stsOnNeedle = stsAfterHeelTurn + halfSts + instepRowsPlus1
+	//decrease two stitches every other row... equivalent to one stitch every row
+	gussetRows = stsOnNeedle - CastOn
+Foot
+	toeDecStart = length - 2.5;
+	footRows = gaugeRows*toeDecStart
+Toe
+	toeRows = (CastOn - 10)/4

@@ -1,0 +1,6 @@
+Default Leg
+
+Leg:
+			Switch to size <smallerNeedle> needles 
+			Work St st for 3.5": <legRows> rows
+			Or until leg is desired length, ending just above the ankle bone.

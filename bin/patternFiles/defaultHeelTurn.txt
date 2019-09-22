@@ -1,0 +1,14 @@
+Default HeelTurn
+//TODO: Write proper method to end
+HeelTurn:			
+			
+			int stsBeforeDecrease=4
+			System.out.println(Row 1: (WS) Sl1, p<quarterSts>, p2tog, p1, turn);
+			for(int i = 2; i< <heelTurnRows>; i++){
+				if(i%2 == 0){
+					System.out.println(Row <i>: Sl1, k<stsBeforeDecrease>, ssk, k1, turn);
+				}else{
+					System.out.println(Row <i>: Sl1, p<stsBeforeDecrease>, p2tog, p1, turn);
+				}
+				stsBeforeDecrease += 1;
+			}

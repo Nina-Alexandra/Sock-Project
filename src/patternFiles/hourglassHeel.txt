@@ -1,0 +1,21 @@
+Hourglass Heel
+Adapted from Kat Haines' Tessellating Lace Socks
+
+Heel:
+			Work the heel flap over the first half of the sts. The second half are held for the instep.
+			*Note: If using dpns, knit one more round of the leg, dividing stitches as follows:
+				- 1st half (<halfSts> sts) onto needle one
+				- 2nd half divided evenly on remaining needles (<quarterSts> sts per needle for 3 dpns)
+
+			int activeSts=<halfSts>;
+			int row = 2;
+			System.out.println(Row 1: (RS) K<halfSts>, turn);
+			do {
+				if(<activeSts>%2 == 0){
+					System.out.println(Row <row>: YO purl wise, purl <activeSts>, turn);
+				}else{
+					System.out.println(Row <row>: YO knit wise, knit <activeSts>, turn);
+				}
+				<activeSts>--;
+				<row>++;
+			} while (activeSts >= 2*<halfSts>/3);

@@ -1,0 +1,5 @@
+Default Foot:
+
+Foot:
+			K until work measures <toeDec>
+			About <footRows> rows

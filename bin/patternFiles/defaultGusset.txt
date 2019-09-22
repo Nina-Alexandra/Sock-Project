@@ -1,0 +1,16 @@
+Default Gusset
+
+Gusset:
+			Row 1: 
+				Pick up and knit sl sts on each side of the heel flap (<halfInstepRows> sts from each side).
+				If using circular needles, place stitch markers between the picked up sts and sts held in reserve as you knit this row
+			Odd rows: K
+			With 3 dpns:
+				Even rows: 
+					Needle 1: K to last 3 stitches, k2tog
+					Needle 2: K
+					Needle 3: K1, ssk, k to end
+			With circular needles:
+				Even rows:
+					K to 3 sts before first stitch marker, k2tog, k to next stitch marker, k1, ssk, k to end
+			Repeat until you are back to <castOn> stitches (<gussetRows> rows)

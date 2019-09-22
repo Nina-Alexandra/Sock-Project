@@ -1,0 +1,11 @@
+Default Toe:
+
+Toe:
+			With 3 dpns:
+				Needle 1: K to last 3 stitches, k2tog
+				Needle 2: K1, ssk, k to last 3 stitches, k2tog, k1
+				Needle 3: K1, ssk, k to end
+			With cicular needles
+				K to 3 sts before first stitch marker, k2tog, k2, ssk, k to 3 sts before second stitch marker, k2tog, k2, ssk, k to end
+			Con’t in this manner until 10 sts remain, <toeRows> rows
+			Graft toe shut (with kitchener stitch, for example) and weave in ends.

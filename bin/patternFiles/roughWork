@@ -1,0 +1,16 @@
+		newFile.printf("Cuff: Cast on %d sts. Work ribbing for 1”\n\nLeg: Work St st until leg is desired length, ending just above the ankle bone.\n\nHeel: Work the heel flap over the first half of the sts. The second half are held for the instep.\n\n", castOn);
+		newFile.printf("Row 1: K first half of sts (%d)\nRow 2: *Sl1, p1 to end of row\nRow 3: Sl1, k to end of row\nRep rows 2-3 fourteen times more (15 times total). Add more rows if you have a higher instep.\n\n", heelFlap);
+		newFile.println("Heel Turn:");
+		newFile.printf("Row 1: (WS) Sl1, p%d, p2, p2tog, p1, turn\n", heelTurn);
+		for(int i = 2; i<= ##; i++){
+			newFile.printf("Row %d: Sl1, k%d, ssk, k1, turn\n", i, i+2);
+			newFile.printf("Row %d: Sl1, p%d, p2tog, p1, turn\n", i+1, i+3);
+		}
+		newFile.println("Con’t in this manner until no sts remain after the gap, ending with a RS row. You may have to end with a ask without the k1. Do NOT turn.");
+		newFile.println();
+		newFile.println("Gusset: Pick up sl sts on each side of the heel flap. Make sure to pick up the same # of sts on each side.");
+		newFile.println("Odd rows: K");
+		newFile.printf("Even rows:\n\tNeedle 1: K to last 3 stitches, k2tog\n\tNeedle 2: K\n\tNeedle 3: K1, ssk, k to end\nRepeat until you are back to %d stitches.\n", castOn);
+		newFile.printf("Foot: K until work measures %d\n", person.toeDec());
+		newFile.println();
+		newFile.println("Toe:\n\tNeedle 1: K to last 3 stitches, k2tog\n\tNeedle 2: K1, ask, k to last 3 stitches, k2tog, k1\n\tNeedle 3: K1, ask, k to end\nCon’t in this manner until about 10 sts remain (always end with an even number of sts)\n\nGraft tie shut and weave in ends.");

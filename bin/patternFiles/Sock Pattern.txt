@@ -1,0 +1,83 @@
+Default Cuff
+Cuff:		
+			Cast on <castOn> sts with size <largerNeedle> needles
+			Divide evenly over dpns: <3dpns> per needle for 3 dpns
+			Join in the round
+			Work ribbing for 1.5”: <cuffRows> rows			
+Ribbing: 	k<ribK>, p<ribP> to end of round
+
+Default Leg
+Leg:
+			Switch to size <smallerNeedle> needles 
+			Work St st for 3.5": <legRows> rows
+			Or until leg is desired length, ending just above the ankle bone.
+			
+Default HeelFlap
+Heel Flap:
+			Work the heel flap over the first half of the sts. The second half are held for the instep.
+			*Note: If using dpns, knit one more round of the leg, dividing stitches as follows:
+				- 1st half (<halfSts> sts) onto needle one
+				- 2nd half divided evenly on remaining needles (<quarterSts> sts per needle for 3 dpns)
+
+			Setup Row: K first half of sts: (<halfSts>) sts
+			Row 1: (wrong side) Sl1, p1 to end of row
+			Row 2: (right side) *Sl1, k1* Repeat between * to end of row
+			Rep rows 1&2 <instepRows> more times (<instepRowsPlus1> times total). End after a right side (knit) row
+			
+			
+Default HeelTurn
+//TODO: Write proper method
+HeelTurn:			
+			Row 1: (WS) Sl1, p<Y>, p2, p2tog, p1, turn
+			Row 2: Sl1, k<row + 2>, ssk, k1, turn
+			Row 3: Sl1, p<row + 2>, p2tog, p1, turn
+			Row 4: Sl1, k<row + 2>, ssk, k1, turn
+			Con’t in this manner until no sts remain after the gap, ending with a RS row. You may have to end with a ask without the k1. Do NOT turn.
+			
+			//Heel turn pseudo code
+			Row 1 is special, write that one
+			for(int row = 2; row<=??; row++){
+				print:
+					"Row " + row + ": Sl1, ";
+				if(row is even){
+					print:
+						 "k" + (Z) + ", ssk, k1, turn";
+				}else{
+				//row is odd
+					print:
+						"p" + (Z) + ", p2tog, p1, turn";
+				}
+				Z += 1;
+			}
+				
+Default Gusset
+Gusset:
+			Row 1: 
+				Pick up and knit sl sts on each side of the heel flap (<halfInstepRows> sts from each side).
+				If using circular needles, place stitch markers between the picked up sts and sts held in reserve as you knit this row
+			Odd rows: K
+			With 3 dpns:
+				Even rows: 
+					Needle 1: K to last 3 stitches, k2tog
+					Needle 2: K
+					Needle 3: K1, ssk, k to end
+			With circular needles:
+				Even rows:
+					K to 3 sts before first stitch marker, k2tog, k to next stitch marker, k1, ssk, k to end
+			Repeat until you are back to <castOn> stitches (<gussetRows> rows)
+
+Default Foot:
+Foot:
+			K until work measures <lengthEase>
+			About <footRows> rows
+
+Default Toe:
+Toe:
+			With 3 dpns:
+				Needle 1: K to last 3 stitches, k2tog
+				Needle 2: K1, ssk, k to last 3 stitches, k2tog, k1
+				Needle 3: K1, ssk, k to end
+			With cicular needles
+				K to 3 sts before first stitch marker, k2tog, k2, ssk, k to 3 sts before second stitch marker, k2tog, k2, ssk, k to end
+			Con’t in this manner until 10 sts remain, <toeRows> rows
+			Graft toe shut (with kitchener stitch, for example) and weave in ends.

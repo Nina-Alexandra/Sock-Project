@@ -1,0 +1,8 @@
+Default Cuff
+
+Cuff:		
+			Cast on <castOn> sts
+			Divide evenly over dpns: <3dpns> per needle for 3 dpns
+			Join in the round
+			Work ribbing for 1.5”: <cuffRows> rows		
+Ribbing: 	k2, p2 to end of round
